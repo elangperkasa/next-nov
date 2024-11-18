@@ -1,0 +1,19 @@
+.productGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 16px;
+  }
+  
+  .productCard {
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+  }
+  
+  .productCard:hover {
+    transform: scale(1.05);
+  }
+  
